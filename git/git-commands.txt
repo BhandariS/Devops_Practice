@@ -13,6 +13,7 @@
 >> To Create new branch with all commits of current branch -- git checkout -b <branchname>
 >> To create a new branch using switch -- git switch -c <branchname>
 >> To delete the branch -- git branch -d <filename>
+>> To Unstage the changes -- git restore --staged <filename>
 
 <<VIEW CHANGES>>
 >> git log - To check all changes happend(history) on that repo
