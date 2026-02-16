@@ -11,9 +11,14 @@
 >> To move file from Staged to Untracked status -- git rm --cache <filename>
 >> To restore deleted files -- git restore <filename>
 >> To Create new branch with all commits of current branch -- git checkout -b <branchname>
->> To delete the branch -- git branch -D <filename>
+>> To create a new branch using switch -- git switch -c <branchname>
+>> To delete the branch -- git branch -d <filename>
 
 <<VIEW CHANGES>>
-git log - To check all changes happend(history) on that repo
-git status - To check the current status of working directory and staging area to see what changes are staged, which are not and which                 files are tracked or untracked
-git remote -v - This commands shows origin of repo connected
+>> git log - To check all changes happend(history) on that repo
+>> git status - To check the current status of working directory and staging area to see what changes are staged, which are                   not and which files are tracked or untracked.
+>> git remote -v - This commands shows origin url of repo connected
+>> git remote set-url origin https://<Token>@<url> - This commands sets up the new url as origin use to setup the repo in                                                           local using token.
+
+
+
